@@ -1,45 +1,39 @@
-tap "cloudflare/cloudflare"
-tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
-# Color-highlighted diff(1) output
+
 brew "colordiff"
-# General-purpose scripting language
-brew "php"
-# Dependency Manager for PHP
-brew "composer"
-# Command-line fuzzy finder written in Go
 brew "fzf"
-# Platform built on V8 to build network applications
-brew "node"
-# Shell command parallelization utility
-brew "parallel"
-# Cross-shell prompt for astronauts
 brew "starship"
-# Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
-# Display directories as trees (with optional color/HTML output)
 brew "tree"
-# JavaScript package manager
-brew "yarn"
-# Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# Cloudflare Tunnel
-brew "cloudflare/cloudflare/cloudflared", link: false
-# Browser for SQLite databases
-cask "db-browser-for-sqlite"
-# Developer targeted fonts with a high number of glyphs
+
 cask "font-hack-nerd-font"
-# Developer targeted fonts with a high number of glyphs
 cask "font-monoid-nerd-font"
-# Reverse proxy, secure introspectable tunnels to localhost
-cask "ngrok"
-# Toolbox companion for QMK Firmware
 cask "qmk-toolbox"
-# Open-source code editor
+cask "raycast"
+cask "warp"
+cask "termius"
+cask "arc"
+cask "spotify"
+cask "notion"
+cask "tableplus"
+cask "herd"
+cask "google-chrome"
+cask "opera"
+cask "firefox"
+cask "brave-browser"
+cask "alt-tab"
+cask "ngrok"
+cask "dropbox"
+cask "google-drive"
+cask "whatsapp"
+cask "telegram"
+cask "slack"
 cask "visual-studio-code"
+
 vscode "adrianwilczynski.alpine-js-intellisense"
 vscode "ahmadalli.vscode-nginx-conf"
 vscode "akamud.vscode-theme-onedark"
